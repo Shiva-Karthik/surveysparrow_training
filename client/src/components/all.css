@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Tahoma, Serif;
+  background-color: #b1e1ff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #3b9ae1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-left: 1rem;
+}
+
+li > button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+nav > button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.container {
+  background-color: #3b9ae1;
+  margin: 30px auto;
+  padding: 4rem 1rem;
+  max-width: 60rem;
+  width: 30%;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 5%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > input {
+  margin: 2%;
+  padding: 2%;
+  background-color: #c1efff;
+}
+
+input[type="text"] {
+  background-color: #c1efff;
+}
+
+.container > h1 {
+  margin-top: -40px;
+  padding-bottom: 5%;
+}
+
+.submit-btn {
+  background-color: #0078aa;
+  border: transparent;
+  margin-top: 8%;
+  cursor: pointer;
+  color :white;
+}
+
+.movie-card-container{
+  margin: 7% 5% 5% 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  text-align: center;
+}
+.movie-card{
+  font-size: large;
+  /* color: ; */
+  /* border: 1px solid red; */
+}
+.movie-image>img{
+  width: 100%;
+}
+
+.search-bar>button {
+  background-color: #00D7FF;
+  border: 0;
+  cursor: pointer;
+  padding: 7px;
+}
+.search-bar > input {
+  margin: 2%;
+  padding: 2%;
+  background-color: #c1efff;
+}
+.search-bar-container{
+  width: 20%;
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  text-align: center;
+}
+
+.search-bar-container>h4{
+  margin-top: 30px;
+}
+
+.loading{
+  margin-top: 5%;
+  text-align: center;
+}
